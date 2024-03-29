@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.461 147.853">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.068em;
+      }
+
+      .cls-2 {
+        font-size: 2.8px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #58595b;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-family: Kollektif, Kollektif;
+      }
+
+      .cls-3 {
+        font-size: 2.8px;
+      }
+
+      .cls-4 {
+        font-size: 2.8px;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+
+      .cls-5 {
+        font-size: 5.599px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-9, .cls-10, .cls-11 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        font-size: 5.6px;
+      }
+
+      .cls-7 {
+        font-size: 5.6px;
+      }
+
+      .cls-9 {
+        font-size: 7.839px;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        font-family: Kollektif-Bold, Kollektif;
+        font-weight: 700;
+      }
+
+      .cls-10 {
+        font-size: 7.839px;
+      }
+
+      .cls-11 {
+        font-size: 7.839px;
+      }
+
+      .cls-12 {
+        fill: #f37068;
+        font-size: 3.919px;
+      }
+
+      .cls-13 {
+        fill: #f0564b;
+        font-size: 3.92px;
+      }
+
+      .cls-14 {
+        fill: #f0574b;
+        font-size: 3.92px;
+      }
+    </style>
+  </defs>
+  <g id="addYourDesign">
+    <g>
+      <rect class="cls-8" x="7.797" y="4.845" width="50.393" height="70.55" rx="3.225" ry="3.225" transform="translate(-9.26 9.906) rotate(-15)"/>
+      <text class="cls-10" transform="translate(7.463 22.588) rotate(-15)"><tspan class="cls-1" x="0" y="0">T</tspan><tspan x="3.849" y="0">ruth</tspan></text>
+      <text class="cls-12" transform="translate(8.937 27.392) rotate(-15)"><tspan x="0" y="0">1 point</tspan></text>
+      <text class="cls-4" transform="translate(19.269 68.472) rotate(-15)"><tspan x="0" y="0">Choose someone (or yourself) to </tspan><tspan x="0" y="3.36">answer honestly!</tspan></text>
+      <text class="cls-5" transform="translate(10.19 34.59) rotate(-15)"><tspan x="0" y="0">Show the last 5 </tspan><tspan x="0" y="6.719">pictures on your </tspan><tspan x="0" y="13.438">camera roll</tspan></text>
+      <rect class="cls-8" x="-3.534" y="84.215" width="70.554" height="50.396" rx="3.225" ry="3.225" transform="translate(-80.021 131.499) rotate(-85)"/>
+      <text class="cls-11" transform="translate(13.687 84.078) rotate(5)"><tspan x="0" y="0">Pop Quiz</tspan></text>
+      <text class="cls-14" transform="translate(13.429 89.096) rotate(5)"><tspan x="0" y="0">2 points</tspan></text>
+      <text class="cls-2" transform="translate(9.148 131.019) rotate(5)"><tspan x="0" y="0">You decide if everyone’s answer </tspan><tspan x="0" y="3.36">for you is correct or not!</tspan></text>
+      <text class="cls-7" transform="translate(12.182 96.331) rotate(5)"><tspan x="0" y="0">What’s a name </tspan><tspan x="0" y="6.719">I’d actually </tspan><tspan x="0" y="13.439">consider for my </tspan><tspan x="0" y="20.158">future kid?</tspan></text>
+      <rect class="cls-8" x="45.303" y="12.122" width="70.554" height="50.396" rx="3.225" ry="3.225" transform="translate(36.378 114.34) rotate(-85)"/>
+      <text class="cls-11" transform="translate(62.457 12.05) rotate(5)"><tspan x="0" y="0">Spotlight</tspan></text>
+      <text class="cls-14" transform="translate(62.199 17.068) rotate(5)"><tspan x="0" y="0">2 points</tspan></text>
+      <text class="cls-2" transform="translate(57.874 60.133) rotate(5)"><tspan x="0" y="0">Show your answers on the count </tspan><tspan x="0" y="3.359">of 3! Majority group(s) win.</tspan></text>
+      <text class="cls-7" transform="translate(61.045 23.915) rotate(5)"><tspan x="0" y="0">Who’s most </tspan><tspan x="0" y="6.72">likely to get </tspan><tspan x="0" y="13.439">canceled today?</tspan></text>
+      <rect class="cls-8" x="58.106" y="75.256" width="50.396" height="70.554" rx="3.225" ry="3.225" transform="translate(-9.317 7.681) rotate(-5)"/>
+      <text class="cls-9" transform="translate(61.168 88.804) rotate(-5)"><tspan x="0" y="0">Challenge</tspan></text>
+      <text class="cls-13" transform="translate(61.784 93.79) rotate(-5)"><tspan x="0" y="0">2 points</tspan></text>
+      <text class="cls-3" transform="translate(64.535 132.69) rotate(-5)"><tspan x="0" y="0">Choose an opponent! Before the </tspan><tspan x="0" y="3.359">challenge, everyone votes on </tspan><tspan x="0" y="6.719">who will win (players can’t vote).</tspan></text>
+      <text class="cls-6" transform="translate(61.814 101.6) rotate(-5)"><tspan x="0" y="0">Arm wrestle!</tspan></text>
+    </g>
+  </g>
+</svg>

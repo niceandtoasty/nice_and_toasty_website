@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Nice and Toasty</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/toasty.svg" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav" style="background-color: #F2CFAF; border-bottom: 3px solid #774637">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">
+                    <img class="app-badge" src="assets/img/logo-mascot.png" alt="Nice and Toasty">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Mashead header-->
+        <header class="masthead">
+            <div class="container px-5">
+                    <img class="img-fluid col-lg-8 col-md-10 col-sm-10 mb-3" src="assets/img/logo.svg" style="margin-left: auto; margin-right: auto; display: block">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <!-- Mashead text and app badges-->
+                            <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                                <h1 class="display-5 lh-1 mb-5">A party game to <span style="color: #F0554B">warm up</span> with your friends.</h1>
+                                <h3 class="mb-2">Join the party!</h3>
+                                <p class="lead fw-normal mb-3">Be the first to hear more about Nice and Toasty</p>
+                                <form class="align-items-center" id="email-form" method="POST" action="https://script.google.com/macros/s/AKfycbxoWi13pKbHFYNoDd7TrkMgYODK4CJqBMJz_PvzgN7BuR4X7zqZX1RfJfz4lmDpCh8/exec" onkeydown="return event.key != 'Enter';">
+                                    <div class="d-flex flex-column flex-lg-row">
+                                        <div class="col-lg-6 form-floating mb-3">
+                                            <input class="form-control" name="Email" required type="email" placeholder="Your email" data-sb-validations="required,email"/>
+                                            <!-- <label class="text-muted" for="email">Your email</label> -->
+                                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                        </div>
+                                        <!-- Success message -->
+                                        <div class="d-none" id="submitSuccessMessage">
+                                            <div class="text-start btn-div mb-3">
+                                                <div class="fw-bolder">Thanks!</div>
+                                            </div>
+                                        </div>
+                                         <!-- Error message -->
+                                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                        <div class="col-lg-4 mb-3 btn-div">
+                                            <button class="btn btn-primary rounded-pill btn-lg" id="submit-button" type="submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Masthead device mockup feature-->
+                            <div class="masthead-device-mockup">
+                               <img src="assets/img/cards.svg">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </header>
+        <!-- Basic features section-->
+        <section style="background-color: #774637;">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-4 col-md-8">
+                        <div class="px-4 py-4 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/nice-and-toasty-box.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="display-6 fw-normal px-4 py-4" style="color: #ffffff;"><b>Nice and Toasty</b> is a party game that turns your friendly banter into a competition.<br><br>Whether you spill some tea with Truth, test your knowledge with Pop Quiz, expose each other with Spotlight, or try your skills with Challenge, you're in for a toasty treat!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Asked Questioned -->
+        <section style="background-color: #F2CFAF;">
+            <div class="container px-5">
+                <div class="row justify-content-xl-end">
+                    <div class="col-12">
+                    <h2 class="h1 mb-3">Want to know more?</h2>
+                    <p class="lead fs-4 mb-5">Nice and Toasty is still in development, but we put answers to some of our most frequently asked questions below.</p>
+                    <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What's the game play?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <p>It's pretty easy! Your goal is to gather the most points by answering questions your group pulls from the deck. In the process, you'll probably get a lot of amusing stories and moments out of your group. Pretty sweet!</p>
+                            <p>Here's a little step-by-step:</p>
+                            <ul>
+                                <li>Pull a card from the deck. There are 4 types of cards in the deck: Truth, Pop Quiz, Spotlight, and Challenge.</li>
+                                <li>Answer the prompt on the card. Most cards in the deck involve the entire group!</li>
+                                <li>Assign points to players that answer correctly.</li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What's the age range? How many people can play?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>The age range is 17+, and the game needs 3 or more players! From experience though, 4 to 10 players feels like the best range.</p>
+                                </div>
+                            </div>
+                            </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What's in the box?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <p>We're still figuring out what we should include in the box to make the game play as fun as possible! However, you're definitely getting these:</p>
+                            <ul>
+                                <li>30 Truth cards</li>
+                                <li>30 Pop Quiz cards</li>
+                                <li>30 Spotlight cards</li>
+                                <li>10 Challenge cards</li>
+                                <li>A rule card</li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            When is Nice and Toasty coming out?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            <p>We're aiming to finish the development of the card game by June 2024. In terms of when you can get a copy, it really boils down to how much interest Nice and Toasty gets! More interest allows us to scale our production so that we can send everyone a copy at an affordable price.</p>
+                            <p>We have tentative plans to run a Kickstarter campaign for Nice and Toasty towards the end of summer in 2024. That'll be your earliest opportunity to grab a copy of the game!</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="text-center py-5" style="background-color: #774637;">
+            <div class="container px-5">
+                <div class="text-white small">
+                    <div class="mb-2">&copy; Nice and Toasty 2024. All Rights Reserved.</div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
