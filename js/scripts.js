@@ -24,11 +24,11 @@ window.addEventListener("load", function() {
       })
       .then(() => {
         form.reset();
-        btn.outerHTML = "<div class='text-center btn-div mb-3'><div class='fw-bolder'>Thanks for submitting!</div></div>";
+        btn.outerHTML = "<div class='text-center btn-div'><div class='fw-bolder'>Thanks for submitting!</div></div>";
       })
       .catch(error => {
         form.reset();
-        btn.outerHTML = "<div class='text-center text-danger mb-3'>There was an error</div>";
+        btn.outerHTML = "<div class='text-center text-danger'>There was an error</div>";
       })
     });
   });

@@ -54,21 +54,13 @@
                                 <h3 class="mb-2">Join the party!</h3>
                                 <p class="lead fw-normal mb-3">Be the first to hear more about Nice and Toasty</p>
                                 <form class="align-items-center" id="email-form" method="POST" action="https://script.google.com/macros/s/AKfycbxoWi13pKbHFYNoDd7TrkMgYODK4CJqBMJz_PvzgN7BuR4X7zqZX1RfJfz4lmDpCh8/exec" onkeydown="return event.key != 'Enter';">
-                                    <div class="d-flex flex-column flex-lg-row">
-                                        <div class="col-lg-6 form-floating mb-3">
+                                    <div class="d-flex flex-column flex-lg-row align-items-center">
+                                        <div class="col-lg-6 form-floating">
                                             <input class="form-control" name="Email" required type="email" placeholder="Your email" data-sb-validations="required,email"/>
                                             <!-- <label class="text-muted" for="email">Your email</label> -->
                                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                         </div>
-                                        <!-- Success message -->
-                                        <div class="d-none" id="submitSuccessMessage">
-                                            <div class="text-start btn-div mb-3">
-                                                <div class="fw-bolder">Thanks!</div>
-                                            </div>
-                                        </div>
-                                         <!-- Error message -->
-                                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                        <div class="col-lg-4 mb-3 btn-div">
+                                        <div class="col-lg-5 btn-div">
                                             <button class="btn btn-primary rounded-pill btn-lg" id="submit-button" type="submit">Submit</button>
                                         </div>
                                     </div>
